@@ -11,14 +11,23 @@ It organizes all the files from from a folder into different section so that we 
 // hint: search for -> shebang syntax for node stack overflow (basically copied the # command on top of this main.js script)
 
 - Use following commands in cmd->
-- peppy help 
+```sh-session
+peppy help 
+```
 //it will help in rerouting your commands correctly
 List of All the commands:
 1. node main.js tree "direcoryPath"
 2. node main.js organise "directoryPath"
-// e.g. - node main.js organise "C:\Users\sangw\Downloads\"
+e.g-
+```sh-session
+- node main.js organise "C:\Users\sangw\Downloads\"
+```
 // Now, the majic happens, it will organise all the files in your cluttered Downloads folder
-3. node main.js help
+
+3. Ask for commands from you cmd itself 😉
+```sh-session
+node main.js help
+```
 
 * Basic steps taken for the project:
 - taking inputs in commandline
