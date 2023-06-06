@@ -1,0 +1,23 @@
+{
+  "name": "file-system-organizer",
+  "version": "1.0.0",
+  "description": "A Command line application using node.js.\r It organizes all the files from from a folder into different section so that we need not to do it manually.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhisheksangwan/File-System-Organizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhisheksangwan/File-System-Organizer/issues"
+  },
+  "bin":{
+    "peppy":"main.js"
+  },
+  "homepage": "https://github.com/abhisheksangwan/File-System-Organizer#readme"
+}
