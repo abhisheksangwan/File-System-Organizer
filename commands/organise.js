@@ -1,7 +1,31 @@
 
 
 
-
+const fs = require("fs");
+const path = require("path");
+let types = {
+  media: ["mp4", "mkv"],
+  archives: ["zip", "7z", "rar", "tar", "gz", "ar", "iso", "xz"],
+  documents: [
+    "docx",
+    "doc",
+    "pdf",
+    "xls",
+    "odt",
+    "ods",
+    "odp",
+    "odg",
+    "txt",
+    "ps",
+    "tex",
+    "xlsx",
+    "REZI",
+  ],
+  app: ["exe", "dmg", "pkg", "deb", "msi"],
+  images: ["png", "svg", "jpg", "jpeg"],
+  Psd: ["psd", "ai"],
+  fonts: ["ttf"],
+};
 // 1. input -> directory path given
 // 2. create-> organised_files -> directory
 function OrganiseFunc(dirpath){
