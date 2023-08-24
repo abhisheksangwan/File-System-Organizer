@@ -5,15 +5,7 @@ It organizes all the files from from a folder into different section so that we 
 
 <h2 >How to use on your local machine</h2>
 
-- Almost all environments support it ->basically tells cmd that the below file has to run in node environment(Already included in main.js).<br>
-```sh-session
-#!/usr/bin/env node
-```
-hint: search for -> shebang syntax for node stack overflow<br>
-- Ist link it to npm globally
-```sh-session
-npm link
-```
+Clone the repo then ->
 
 - Use following commands in cmd->
 ```sh-session
@@ -29,10 +21,6 @@ e.g-
 ```
 - Now, the magic happens, it will organise all the files in your cluttered Downloads folder<br>
 
-3. Ask for commands from you cmd itself 😉
-```sh-session
-node main.js help
-```
 <h2>Basic steps taken for the project: </h2>
 
 - taking inputs in commandline
